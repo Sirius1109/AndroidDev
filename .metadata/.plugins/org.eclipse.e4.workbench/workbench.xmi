@@ -165,9 +165,9 @@
               </children>
             </children>
             <children xsi:type="basic:PartSashContainer" xmi:id="_kTki1MGqEeW8J8Gk-Zi9zA" containerData="8539" selectedElement="_LwY10OSeEeWwQrVZF6bqQw" horizontal="true">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_LwY10OSeEeWwQrVZF6bqQw" containerData="8524" selectedElement="_kTki1cGqEeW8J8Gk-Zi9zA">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_LwY10OSeEeWwQrVZF6bqQw" containerData="8524" selectedElement="_kTki3cGqEeW8J8Gk-Zi9zA">
                 <children xsi:type="advanced:Placeholder" xmi:id="_kTki1cGqEeW8J8Gk-Zi9zA" elementId="org.eclipse.ui.editorss" containerData="7740" ref="_kTkkH8GqEeW8J8Gk-Zi9zA"/>
-                <children xsi:type="basic:PartStack" xmi:id="_kTki3cGqEeW8J8Gk-Zi9zA" elementId="bottom" containerData="2260" selectedElement="_kTki5cGqEeW8J8Gk-Zi9zA">
+                <children xsi:type="basic:PartStack" xmi:id="_kTki3cGqEeW8J8Gk-Zi9zA" elementId="bottom" containerData="2260" selectedElement="_kTki4sGqEeW8J8Gk-Zi9zA">
                   <tags>org.eclipse.e4.secondaryDataStack</tags>
                   <tags>Android</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_kTki3sGqEeW8J8Gk-Zi9zA" elementId="org.eclipse.ui.views.ProblemView" ref="_kTlKKMGqEeW8J8Gk-Zi9zA"/>
@@ -185,7 +185,7 @@
                       <tags>ViewMenu</tags>
                       <tags>menuContribution:menu</tags>
                     </menus>
-                    <toolbar xmi:id="_kTki58GqEeW8J8Gk-Zi9zA" elementId="com.android.ide.eclipse.ddms.views.LogCatView"/>
+                    <toolbar xmi:id="_kTki58GqEeW8J8Gk-Zi9zA" elementId="com.android.ide.eclipse.ddms.views.LogCatView" visible="false"/>
                   </children>
                   <children xsi:type="basic:Part" xmi:id="_KGXkAOSeEeWwQrVZF6bqQw" elementId="com.android.ide.eclipse.ddms.views.FileExplorerView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="File Explorer" iconURI="platform:/plugin/com.android.ide.eclipse.ddms/icons/android.png" tooltip="" closeable="true">
                     <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
@@ -420,7 +420,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>highlighted</tags>
       <menus xmi:id="_kTlKRcGqEeW8J8Gk-Zi9zA" elementId="org.eclipse.ui.console.ConsoleView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -433,7 +432,7 @@
         <tags>menuContribution:popup</tags>
         <tags>popup:org.eclipse.ui.MessageConsole.#ContextMenu</tags>
       </menus>
-      <toolbar xmi:id="_kTlKSMGqEeW8J8Gk-Zi9zA" elementId="org.eclipse.ui.console.ConsoleView" visible="false"/>
+      <toolbar xmi:id="_kTlKSMGqEeW8J8Gk-Zi9zA" elementId="org.eclipse.ui.console.ConsoleView"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_kTlKVcGqEeW8J8Gk-Zi9zA" elementId="org.eclipse.ui.views.ProgressView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Progress" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/pview.png" tooltip="" closeable="true">
       <tags>View</tags>
@@ -466,7 +465,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_kTlKXsGqEeW8J8Gk-Zi9zA" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_CABT4OnAEeWg5_zRNAm_Pg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_kTrRFsGqEeW8J8Gk-Zi9zA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_CA3foOy5EeWRzOh2Mt3U6A" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_kTrRFsGqEeW8J8Gk-Zi9zA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_kTlKbMGqEeW8J8Gk-Zi9zA" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -499,7 +498,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_kTlKuMGqEeW8J8Gk-Zi9zA" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_CAE-QOnAEeWg5_zRNAm_Pg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_kTrQysGqEeW8J8Gk-Zi9zA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_CA8YIOy5EeWRzOh2Mt3U6A" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_kTrQysGqEeW8J8Gk-Zi9zA"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_kTlKxMGqEeW8J8Gk-Zi9zA" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
